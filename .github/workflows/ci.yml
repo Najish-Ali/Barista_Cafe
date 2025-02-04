@@ -1,4 +1,4 @@
-name: Simple CI Workflow
+name: CI Pipeline for Barista_Cafe
 
 on:
   push:
@@ -24,6 +24,12 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Run Linter
+        run: npm run lint
+
       - name: Run Tests
         run: npm test
+
+      - name: Build Application
+        run: npm run build
 
