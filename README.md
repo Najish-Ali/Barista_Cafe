@@ -1,4 +1,4 @@
-# Barista Cafe Template
+# Barista Cafe Template 🚀
 
 Welcome to the **Barista Cafe** project repository! This project is a template for a modern cafe website, featuring a sleek design and responsive layout to create an engaging user experience.
 
